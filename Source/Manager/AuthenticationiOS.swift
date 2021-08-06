@@ -6,16 +6,14 @@
 //  Copyright © 2020 Pig on a Hill Productions. All rights reserved.
 //
 
-import Foundation
-import SafariServices
-
-@available(iOS 9.0, *)
-public extension NetatmoManager {
-    
-    static func authorize(scope: [AuthScope] = [.readStation]) throws -> SFSafariViewController {
-        
-        let url = try NetatmoManager.authorizeURL()
-        return SFSafariViewController(url: url)
-    }
-    
-}
+//import Foundation
+//
+//@available(iOS 9.0, *)
+//public extension NetatmoManager {
+//    
+//    static func authorize(scope: [AuthScope] = [.readStation]) throws -> SFSafariViewController {
+//        
+//        let url = try NetatmoManager.authorizeURL()
+//        return SFSafariViewController(url: url)
+//    }
+//}
